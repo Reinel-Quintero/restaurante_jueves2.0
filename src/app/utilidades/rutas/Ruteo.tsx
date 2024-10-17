@@ -1,11 +1,11 @@
 import {Route, Routes} from "react-router-dom"
 
+import { Acerca } from "../../componentes/otros/Acerca"
+import { MenuCrear } from "../../componentes/menu/MenuCrear"
 import { MenuAdmin } from "../../componentes/menu/MenuAdmin"
 import { Inicio } from "../../componentes/contenedor/Inicio"
-import { MenuCrear } from "../../componentes/menu/MenuCrear"
 import { MenuListar } from "../../componentes/menu/MenuListar"
 import { MenuActualizar } from "../../componentes/menu/MenuActualizar"
-import { Acerca } from "../../componentes/otros/Acerca"
 import { NoEncontrado } from "../../componentes/contenedor/NoEncontrado"
 
 export const Ruteo = ()=>{
