@@ -26,7 +26,9 @@ export const MenuAdmin = () => {
                     <i className="fa-solid fa-plus" style={{ color: "#00FF00" }}> </i>                     
                   </a>
                   &nbsp;
+                  <a href="/menactu/3">
                   <i className="fa-solid fa-minus" style={{ color: "#FF0000" }} ></i>
+                  </a>
                 </td>
               </tr>
               <tr>
@@ -40,7 +42,9 @@ export const MenuAdmin = () => {
                     <i className="fa-solid fa-plus" style={{ color: "#00FF00" }}> </i>                     
                   </a>
                   &nbsp;
+                  <a href="/menactu/3">
                   <i className="fa-solid fa-minus" style={{ color: "#FF0000" }} ></i>
+                  </a>
                 </td>
               </tr>
               <tr>
@@ -54,7 +58,9 @@ export const MenuAdmin = () => {
                     <i className="fa-solid fa-plus" style={{ color: "#00FF00" }}> </i>                     
                   </a>
                   &nbsp;
+                  <a href="/menactu/3">
                   <i className="fa-solid fa-minus" style={{ color: "#FF0000" }} ></i>
+                  </a>
                 </td>
               </tr>
             </tbody>
