@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 export const MenuAdmin = () => {
   return (
     <>
@@ -22,13 +24,13 @@ export const MenuAdmin = () => {
                 <td className="text-center">35000</td>
                 <td className="text-center">Paisá</td>
                 <td className="text-center">
-                  <a href="/menactu/1">
+                  <NavLink to="/menactu/1">
                     <i className="fa-solid fa-plus" style={{ color: "#00FF00" }}> </i>                     
-                  </a>
+                  </NavLink>
                   &nbsp;
-                  <a href="/menactu/:codigo">
+                  <NavLink to="/menactu/1">
                   <i className="fa-solid fa-minus" style={{ color: "#FF0000" }} ></i>
-                  </a>
+                  </NavLink>
                 </td>
               </tr>
               <tr>
@@ -38,13 +40,13 @@ export const MenuAdmin = () => {
                 <td className="text-center">28000</td>
                 <td className="text-center">Andina</td>
                 <td className="text-center">
-                  <a href="/menactu/2">
+                  <NavLink to="/menactu/2">
                     <i className="fa-solid fa-plus" style={{ color: "#00FF00" }}> </i>                     
-                  </a>
+                    </NavLink>
                   &nbsp;
-                  <a href="/menactu/:codigo">
+                  <NavLink to="/menactu/2">
                   <i className="fa-solid fa-minus" style={{ color: "#FF0000" }} ></i>
-                  </a>
+                  </NavLink>
                 </td>
               </tr>
               <tr>
@@ -54,13 +56,13 @@ export const MenuAdmin = () => {
                 <td className="text-center">35000</td>
                 <td className="text-center">Santander</td>
                 <td className="text-center">
-                  <a href="/menactu/3">
+                  <NavLink to="/menactu/3">
                     <i className="fa-solid fa-plus" style={{ color: "#00FF00" }}> </i>                     
-                  </a>
+                  </NavLink>
                   &nbsp;
-                  <a href="/menactu/:codigo">
+                  <NavLink to="/menactu/3">
                   <i className="fa-solid fa-minus" style={{ color: "#FF0000" }} ></i>
-                  </a>
+                  </NavLink>
                 </td>
               </tr>
             </tbody>
