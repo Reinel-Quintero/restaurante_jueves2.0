@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Plato } from "../../modelos/Plato";
 import { ARREGLO_PLATOS } from "../../mocks/Plato-mocks";
-import { ARREGLO_PLATOS_REGION } from "../../utilidades/rutas/dominios/DomRegion";
+import { ARREGLO_PLATOS_REGION } from "../dominio/DomRegion";
 
 export const MenuListar = () => {
   const [arrPlatos] = useState<Plato[]>(ARREGLO_PLATOS);

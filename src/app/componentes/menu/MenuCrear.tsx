@@ -1,9 +1,9 @@
 export const MenuCrear = () => {
   return (
     <>
-      <div className="pt-5">
+      <div className="pt-4 d-flex justify-content-center">
         <div className="col-md-8">
-          <form className="row g-3 needs-validation">
+          <form className="row g-4 needs-validation">
 
             <div className="col-md-6">
               <label htmlFor="nomb" className="form-label">Nombre Del Plato</label>

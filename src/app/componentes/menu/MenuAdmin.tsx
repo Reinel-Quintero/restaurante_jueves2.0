@@ -22,11 +22,11 @@ export const MenuAdmin = () => {
                 <td className="text-center">35000</td>
                 <td className="text-center">Paisá</td>
                 <td className="text-center">
-                  <a href="/menactu/3">
+                  <a href="/menactu/1">
                     <i className="fa-solid fa-plus" style={{ color: "#00FF00" }}> </i>                     
                   </a>
                   &nbsp;
-                  <a href="/menactu/3">
+                  <a href="/menactu/:codigo">
                   <i className="fa-solid fa-minus" style={{ color: "#FF0000" }} ></i>
                   </a>
                 </td>
@@ -38,11 +38,11 @@ export const MenuAdmin = () => {
                 <td className="text-center">28000</td>
                 <td className="text-center">Andina</td>
                 <td className="text-center">
-                  <a href="/menactu/3">
+                  <a href="/menactu/2">
                     <i className="fa-solid fa-plus" style={{ color: "#00FF00" }}> </i>                     
                   </a>
                   &nbsp;
-                  <a href="/menactu/3">
+                  <a href="/menactu/:codigo">
                   <i className="fa-solid fa-minus" style={{ color: "#FF0000" }} ></i>
                   </a>
                 </td>
@@ -58,7 +58,7 @@ export const MenuAdmin = () => {
                     <i className="fa-solid fa-plus" style={{ color: "#00FF00" }}> </i>                     
                   </a>
                   &nbsp;
-                  <a href="/menactu/3">
+                  <a href="/menactu/:codigo">
                   <i className="fa-solid fa-minus" style={{ color: "#FF0000" }} ></i>
                   </a>
                 </td>
